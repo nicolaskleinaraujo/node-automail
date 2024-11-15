@@ -6,9 +6,11 @@ import fs from "node:fs"
 const resend = new Resend(process.env.RESEND_KEY)
 
 const sendNewsLetter = async() => {
+    const date = new Date()
+
     const email: string | undefined = process.env.EMAIL_TO
 
-    const filePath: string = path.resolve("../teste.txt")
+    const filePath: string = path.resolve("../teste.epub")
     const attachment = fs.readFileSync(filePath).toString("base64")
 
     if (email !== undefined) {
@@ -16,11 +18,11 @@ const sendNewsLetter = async() => {
             from: "contatonkfa@nkportfolio.tech",
             to: [email],
             subject: "Convert",
-            text: "",
+            text: "Newsletter do dia",
             attachments: [
                 {
                     content: attachment,
-                    filename: `Newsletter ${Date.now()}.epub`
+                    filename: `Newsletter ${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getFullYear()).slice(2)}.epub`
                 }
             ]
         })
