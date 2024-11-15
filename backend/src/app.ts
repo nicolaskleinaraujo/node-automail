@@ -3,6 +3,8 @@ import { Resend } from "resend"
 import path from "node:path"
 import fs from "node:fs"
 
+import formatFile from "./controllers/formatFile"
+
 const resend = new Resend(process.env.RESEND_KEY)
 
 const sendNewsLetter = async() => {
@@ -32,4 +34,5 @@ const sendNewsLetter = async() => {
     }
 }
 
-sendNewsLetter()
+//sendNewsLetter()
+formatFile()
