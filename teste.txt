@@ -1,99 +1,103 @@
    --------------------------------------------------------------------------------------------------
 Curiosidade para o dia 4 de janeiro: em 1995, a Apple
 licenciava o sistema operacional do Macintosh para outros
-fabricantes de computadores. E ap�s as not�cias de hoje:
+fabricantes de computadores. E após as notícias de hoje:
 depoimento de aluno do curso.dev (
-https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==
-) que j� fez muitos cursos de programa��o e um dos v�deos mais
-populares do canal, com mais de 1 milh�o de visualiza��es
-(confira o coment�rio mais votado).
+[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
+) que já fez muitos cursos de programação e um dos vídeos mais
+populares do canal, com mais de 1 milhão de visualizações
+(confira o comentário mais votado).
 
-Microsoft est� adicionando uma tecla exclusiva ao assistente de
-IA Copilot em teclados de PCs, alterando o leiaute padr�o pela
+Microsoft está adicionando uma tecla exclusiva ao assistente de
+IA Copilot em teclados de PCs, alterando o leiaute padrão pela
 primeira vez desde 1994: a tecla substitui onde geralmente fica o
-bot�o de menu na direita (entre as teclas Alt direito e seta
-esquerda). A Microsoft espera que o padr�o seja um requisito em
-PCs e notebooks instalados com Windows 11. As informa��es s�o do
+botão de menu na direita (entre as teclas Alt direito e seta
+esquerda). A Microsoft espera que o padrão seja um requisito em
+PCs e notebooks instalados com Windows 11. As informações são do
 site Ars Technica.
 
-SpaceX lan�a primeira leva de sat�lites Starlink com capacidade
-de conex�o direta a celulares: a estimativa � que servi�os de
-texto estejam dispon�veis ainda este ano, com voz e dados
-previstos para 2025. O servi�o � ideal apenas para locais sem
-conectividade celular, n�o sendo competitivo com redes celulares
-terrestres existentes dado o limite de banda � o sistema ser�
-capaz de fornecer velocidades de pico te�ricas de 7,2 Mbps de
-uplink e at� 18,3 Mbps no downlink (espa�o para Terra). As
-informa��es s�o do site Next Big Future.
+SpaceX lança primeira leva de satélites Starlink com capacidade
+de conexão direta a celulares: a estimativa é que serviços de
+texto estejam disponíveis ainda este ano, com voz e dados
+previstos para 2025. O serviço é ideal apenas para locais sem
+conectividade celular, não sendo competitivo com redes celulares
+terrestres existentes dado o limite de banda – o sistema será
+capaz de fornecer velocidades de pico teóricas de 7,2 Mbps de
+uplink e até 18,3 Mbps no downlink (espaço para Terra). As
+informações são do site Next Big Future.
 
-Pessoas est�o postando menos em redes sociais: pesquisa nos EUA
+Pessoas estão postando menos em redes sociais: pesquisa nos EUA
 mostram que 61% dos adultos se tornaram mais seletivos sobre o
-que compartilham, motivados por preocupa��es com privacidade e
-descontentamento com an�ncios. H� tamb�m uma tend�ncia para
-experi�ncias mais passivas, com a ideia de que redes sociais
-agora s�o fontes de entretenimento, como YouTube ou Netflix. As
-informa��es s�o do jornal The Wall Street Journal.
+que compartilham, motivados por preocupações com privacidade e
+descontentamento com anúncios. Há também uma tendência para
+experiências mais passivas, com a ideia de que redes sociais
+agora são fontes de entretenimento, como YouTube ou Netflix. As
+informações são do jornal The Wall Street Journal.
 
-Mandiant, empresa de ciberseguran�a adquirida pelo Google por 5,4
-bilh�es de d�lares em 2022, tem conta no X hackeada: o ataque
+Mandiant, empresa de cibersegurança adquirida pelo Google por 5,4
+bilhões de dólares em 2022, tem conta no X hackeada: o ataque
 promovia um link malicioso que tentava roubar moedas digitais de
-usu�rios. Apesar de a empresa ter recuperado a conta ap�s algumas
-horas, o incidente fere a reputa��o da empresa, com especula��es
-sobre o uso de prote��es b�sicas, como senhas fortes e
-autentica��o em dois fatores � em uma postagem, o hacker escreveu
-�mudem a senha, por favor�. As informa��es s�o do site Ars
+usuários. Apesar de a empresa ter recuperado a conta após algumas
+horas, o incidente fere a reputação da empresa, com especulações
+sobre o uso de proteções básicas, como senhas fortes e
+autenticação em dois fatores – em uma postagem, o hacker escreveu
+“mudem a senha, por favor”. As informações são do site Ars
 Technica.
 
 Google inicia nesta quinta-feira o primeiro teste para bloquear
-por padr�o cookies de terceiros do Chrome: o experimento envolve
-cerca de 30 milh�es de usu�rios, apenas 1% do total, mas � um
-passo inicial para a elimina��o mais ampla desses cookies na
-segunda metade de 2024. As informa��es s�o do site The Register.
+por padrão cookies de terceiros do Chrome: o experimento envolve
+cerca de 30 milhões de usuários, apenas 1% do total, mas é um
+passo inicial para a eliminação mais ampla desses cookies na
+segunda metade de 2024. As informações são do site The Register.
 
-Programa de edi��o de �udio Audacity para Windows incorpora
-plugins de IA open source lan�ados pela Intel: o conjunto
-OpenVINO inclui supress�o de ru�do, transcri��o de �udio para
-podcasts, al�m de gera��o de m�sica e separa��o de
-vocais/instrumentos. O modelo roda localmente e � poss�vel
-compilar o software manualmente para instala��es Linux e macOS.
-Est� dispon�vel no reposit�rio
-�intel/openvino-plugins-ai-audacity� no GitHub. As informa��es
-s�o do site NeoWin.
+Programa de edição de áudio Audacity para Windows incorpora
+plugins de IA open source lançados pela Intel: o conjunto
+OpenVINO inclui supressão de ruído, transcrição de áudio para
+podcasts, além de geração de música e separação de
+vocais/instrumentos. O modelo roda localmente e é possível
+compilar o software manualmente para instalações Linux e macOS.
+Está disponível no repositório
+“intel/openvino-plugins-ai-audacity” no GitHub. As informações
+são do site NeoWin.
 
-M�dulo npm tenta instalar todos os outros m�dulos dispon�veis no
-registro: o �everything� pode esgotar o armazenamento do
-computador, mas pior do que isso, inclui todos os outros m�dulos
-no registro como suas depend�ncias, impedindo que autores dos
-outros m�dulos removam suas publica��es devido � pol�tica do npm,
-que s� permite a remo��o de m�dulos se nenhum outro no registro
-depender deles. O autor de �everything�, PatrickJS, se desculpou
+Módulo npm tenta instalar todos os outros módulos disponíveis no
+registro: o “everything” pode esgotar o armazenamento do
+computador, mas pior do que isso, inclui todos os outros módulos
+no registro como suas dependências, impedindo que autores dos
+outros módulos removam suas publicações devido à política do npm,
+que só permite a remoção de módulos se nenhum outro no registro
+depender deles. O autor de “everything”, PatrickJS, se desculpou
 e entrou em contato com os administradores do npm para solucionar
-o problema. As informa��es s�o do site BleepingComputer.
+o problema. As informações são do site BleepingComputer.
 
-�O curso.dev (
-https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==
-) foi o �nico curso que me deu vontade de continuar estudando e
-terminar (#souAcumuladorDeCurso)�: assim come�a o depoimento do
-aluno �lucasaltenhofen�. E �isso tem tudo a ver com a did�tica do
-Filipe, a plataforma ser limpa e simples de utilizar, conte�do
-ser focado e com explica��es profundas sobre assuntos que outros
+“O curso.dev (
+[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
+) foi o único curso que me deu vontade de continuar estudando e
+terminar (#souAcumuladorDeCurso)”: assim começa o depoimento do
+aluno “lucasaltenhofen”. E “isso tem tudo a ver com a didática do
+Filipe, a plataforma ser limpa e simples de utilizar, conteúdo
+ser focado e com explicações profundas sobre assuntos que outros
 cursos abordam de forma raza, e tem como principal ferramenta as
 pequenas entregas de conhecimento em cada aula... Muitos fatores
-contribuem para esse ser o melhor curso que j� fiz�: Link do
+contribuem para esse ser o melhor curso que já fiz”: Link do
 Curso (
-https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==
+[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
 )
 
-Olha s� esse coment�rio � �Mano, passei em uma entrevista t�cnica
-por conta desse v�deo�: essa foi a resposta mais votada, do
-Everton Nascimento, no v�deo �Um j�nior j� deveria saber como
-reduzir a quantidade de IFs de um c�digo (e voc�, sabe?)�, o que
-me deixou muito feliz. � uma dica de programa��o t�o simples e um
-dos v�deos mais vistos do canal (1 milh�o de views): Link do
-V�deo (
-https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/z2hghnh3e96o9oap/aHR0cHM6Ly95b3V0dS5iZS9MZjNaVjBVc25Fbw==
+Olha só esse comentário – “Mano, passei em uma entrevista técnica
+por conta desse vídeo”: essa foi a resposta mais votada, do
+Everton Nascimento, no vídeo “Um júnior já deveria saber como
+reduzir a quantidade de IFs de um código (e você, sabe?)”, o que
+me deixou muito feliz. É uma dica de programação tão simples e um
+dos vídeos mais vistos do canal (1 milhão de views): Link do
+Vídeo (
+[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/z2hghnh3e96o9oap/aHR0cHM6Ly95b3V0dS5iZS9MZjNaVjBVc25Fbw==)
 )
 
-
-Rua Ant�nio da Veiga, 495, Blumenau, SC, 89012-500
+Cancelar inscrição (
+[unsubscribe.convertkit](https://unsubscribe.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk)
+) | Indicar Newsletter (
+[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/p8heh9hz4k69kziq/aHR0cHM6Ly9maWxpcGVkZXNjaGFtcHMuY29tLmJyL25ld3NsZXR0ZXI=)
+)
+Rua Antônio da Veiga, 495, Blumenau, SC, 89012-500
 

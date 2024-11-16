@@ -4,6 +4,7 @@ import path from "node:path"
 import fs from "node:fs"
 
 import formatFile from "./controllers/formatFile"
+import epubParser from "./controllers/epubParser"
 
 const resend = new Resend(process.env.RESEND_KEY)
 
@@ -24,6 +25,7 @@ const sendNewsLetter = async() => {
             attachments: [
                 {
                     content: attachment,
+                    contentType: "application/epub+zip",
                     filename: `Newsletter ${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getFullYear()).slice(2)}.epub`
                 }
             ]
@@ -34,5 +36,6 @@ const sendNewsLetter = async() => {
     }
 }
 
-//sendNewsLetter()
-formatFile()
+//formatFile()
+//epubParser()
+sendNewsLetter()
