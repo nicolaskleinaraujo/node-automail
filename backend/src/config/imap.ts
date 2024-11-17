@@ -1,6 +1,7 @@
 import "dotenv/config"
 import Imap, { Config } from "imap"
 import { simpleParser } from "mailparser"
+import fs from "node:fs"
 
 const getNewsletter = async() => {
     const imapConfig: Config = {
@@ -16,14 +17,14 @@ const getNewsletter = async() => {
 
     try {
         imap.once("ready", () => {
-            imap.openBox("inbox", false, (err, box) => {
+            imap.openBox("inbox", false, (err) => {
                 if (err) {
                     console.log(err)
                     return
                 }
 
                 const filter = [["FROM", "newsletter@filipedeschamps.com.br"]]
-    
+
                 imap.search(filter, (err, results) => {
                     if (err) {
                         console.log(err)
@@ -52,9 +53,7 @@ const getNewsletter = async() => {
                                         return
                                     }
 
-                                    console.log(parsed.subject)
-                                    console.log(parsed.date)
-                                    console.log(parsed.text)
+                                    fs.writeFileSync("../teste.txt", parsed.text as string)
                                 })
                             })
                         })
