@@ -16,6 +16,8 @@ const formatFile = async() => {
             (match, text, url) => `<a href="${url}" target="_blank" style="text-decoration: underline;">${text}</a>`
         )
 
+        file = file.trim().split(/\r?\n\s*\r?\n/).map(paragraph => `<p>${paragraph.trim()}</p>`).join("\n\n")
+
         const encodedFile = iconv.encode(file, "utf-8")
         fs.writeFileSync(filePath, encodedFile)
 
