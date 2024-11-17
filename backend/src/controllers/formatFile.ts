@@ -6,14 +6,17 @@ const formatFile = async() => {
     try {
         const filePath = path.resolve("../teste.txt")
         const rawFile = fs.readFileSync(filePath)
-        let file = iconv.decode(rawFile, "windows-1252")
+        let file = iconv.decode(rawFile, "utf-8")
 
-        const regex = /(From: [\s\S]*?Subject: [\s\S]*?(\r?\n)+)|Cancelar inscrição\s*\(\s*https?:\/\/[^\)]+\)\s*\|\s*Indicar Newsletter\s*\(\s*https?:\/\/[^\)]+\)|^-{50,}\s*$/gm
-        file = file.replace(regex, '')
+        const headerRegex = /(?:^[-_]+[\r\n]+|^De:.*?[\r\n]+Enviado:.*?[\r\n]+Para:.*?[\r\n]+Assunto:.*?[\r\n]+)/gm
+        file = file.replace(headerRegex, "")
+
+        const footerRegex = /Cancelar inscrição[\s\S]*$/gm
+        file = file.replace(footerRegex, "")
 
         file = file.replace(
-            /([^\s]+)\s*\(\s*(https?:\/\/[^\s\)]+)\s*\)/g,
-            (match, text, url) => `<a href="${url}" target="_blank" style="text-decoration: underline;">${text}</a>`
+            /([^\s<]+)<(https?:\/\/[^\s>]+)>/g,
+            (_match, text, url) => `<a href="${url}" target="_blank" style="text-decoration: underline;">${text}</a>`
         )
 
         file = file.trim().split(/\r?\n\s*\r?\n/).map(paragraph => `<p>${paragraph.trim()}</p>`).join("\n\n")
