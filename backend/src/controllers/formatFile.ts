@@ -13,7 +13,7 @@ const formatFile = async() => {
             (match) => `[${match.match(/(?:www\.|)(\w+\.\w+)/)?.[0]}](${match})`
         )
 
-        const regex = /(From: [\s\S]*?Subject: [\s\S]*?(\r?\n)+)|Cancelar inscri��o\s*\(\s*https?:\/\/[^\)]+\)\s*\|\s*Indicar Newsletter\s*\(\s*https?:\/\/[^\)]+\)/g
+        const regex = /(From: [\s\S]*?Subject: [\s\S]*?(\r?\n)+)|Cancelar inscri��o\s*\(\s*https?:\/\/[^\)]+\)\s*\|\s*Indicar Newsletter\s*\(\s*https?:\/\/[^\)]+\)|^-{50,}\s*$/gm
 
         file = file.replace(regex, '')
 
