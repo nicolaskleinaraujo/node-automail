@@ -2,9 +2,7 @@
 Curiosidade para o dia 4 de janeiro: em 1995, a Apple
 licenciava o sistema operacional do Macintosh para outros
 fabricantes de computadores. E após as notícias de hoje:
-depoimento de aluno do curso.dev (
-[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
-) que já fez muitos cursos de programação e um dos vídeos mais
+depoimento de aluno do <a href="https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==" target="_blank" style="text-decoration: underline;">curso.dev</a> que já fez muitos cursos de programação e um dos vídeos mais
 populares do canal, com mais de 1 milhão de visualizações
 (confira o comentário mais votado).
 
@@ -70,9 +68,7 @@ depender deles. O autor de “everything”, PatrickJS, se desculpou
 e entrou em contato com os administradores do npm para solucionar
 o problema. As informações são do site BleepingComputer.
 
-“O curso.dev (
-[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
-) foi o único curso que me deu vontade de continuar estudando e
+“O <a href="https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==" target="_blank" style="text-decoration: underline;">curso.dev</a> foi o único curso que me deu vontade de continuar estudando e
 terminar (#souAcumuladorDeCurso)”: assim começa o depoimento do
 aluno “lucasaltenhofen”. E “isso tem tudo a ver com a didática do
 Filipe, a plataforma ser limpa e simples de utilizar, conteúdo
@@ -80,9 +76,7 @@ ser focado e com explicações profundas sobre assuntos que outros
 cursos abordam de forma raza, e tem como principal ferramenta as
 pequenas entregas de conhecimento em cada aula... Muitos fatores
 contribuem para esse ser o melhor curso que já fiz”: Link do
-Curso (
-[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==)
-)
+<a href="https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/owhkhqhrw39438sv/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX2x1Y2FzYWx0ZW5ob2Zlbg==" target="_blank" style="text-decoration: underline;">Curso</a>
 
 Olha só esse comentário – “Mano, passei em uma entrevista técnica
 por conta desse vídeo”: essa foi a resposta mais votada, do
@@ -90,14 +84,8 @@ Everton Nascimento, no vídeo “Um júnior já deveria saber como
 reduzir a quantidade de IFs de um código (e você, sabe?)”, o que
 me deixou muito feliz. É uma dica de programação tão simples e um
 dos vídeos mais vistos do canal (1 milhão de views): Link do
-Vídeo (
-[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/z2hghnh3e96o9oap/aHR0cHM6Ly95b3V0dS5iZS9MZjNaVjBVc25Fbw==)
-)
+<a href="https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/z2hghnh3e96o9oap/aHR0cHM6Ly95b3V0dS5iZS9MZjNaVjBVc25Fbw==" target="_blank" style="text-decoration: underline;">Vídeo</a>
 
-Cancelar inscrição (
-[unsubscribe.convertkit](https://unsubscribe.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk)
-) | Indicar Newsletter (
-[click.convertkit](https://click.convertkit-mail.com/68u2pnzeg4i8hkz24w9f9uzdklokk/p8heh9hz4k69kziq/aHR0cHM6Ly9maWxpcGVkZXNjaGFtcHMuY29tLmJyL25ld3NsZXR0ZXI=)
-)
+
 Rua Antônio da Veiga, 495, Blumenau, SC, 89012-500
 

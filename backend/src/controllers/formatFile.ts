@@ -8,14 +8,13 @@ const formatFile = async() => {
         const rawFile = fs.readFileSync(filePath)
         let file = iconv.decode(rawFile, "windows-1252")
 
-        file = file.replace(
-            /(https?:\/\/[^\s]+)/g,
-            (match) => `[${match.match(/(?:www\.|)(\w+\.\w+)/)?.[0]}](${match})`
-        )
-
-        const regex = /(From: [\s\S]*?Subject: [\s\S]*?(\r?\n)+)|Cancelar inscri��o\s*\(\s*https?:\/\/[^\)]+\)\s*\|\s*Indicar Newsletter\s*\(\s*https?:\/\/[^\)]+\)|^-{50,}\s*$/gm
-
+        const regex = /(From: [\s\S]*?Subject: [\s\S]*?(\r?\n)+)|Cancelar inscrição\s*\(\s*https?:\/\/[^\)]+\)\s*\|\s*Indicar Newsletter\s*\(\s*https?:\/\/[^\)]+\)|^-{50,}\s*$/gm
         file = file.replace(regex, '')
+
+        file = file.replace(
+            /([^\s]+)\s*\(\s*(https?:\/\/[^\s\)]+)\s*\)/g,
+            (match, text, url) => `<a href="${url}" target="_blank" style="text-decoration: underline;">${text}</a>`
+        )
 
         const encodedFile = iconv.encode(file, "utf-8")
         fs.writeFileSync(filePath, encodedFile)
