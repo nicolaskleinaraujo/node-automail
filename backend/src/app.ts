@@ -5,6 +5,7 @@ import fs from "node:fs"
 
 import formatFile from "./controllers/formatFile"
 import epubParser from "./controllers/epubParser"
+import getNewsletter from "./config/imap"
 
 const resend = new Resend(process.env.RESEND_KEY)
 
@@ -32,6 +33,7 @@ const sendNewsLetter = async() => {
     console.log(error)
 }
 
+getNewsletter()
 //formatFile()
 //epubParser()
-sendNewsLetter()
+//sendNewsLetter()
