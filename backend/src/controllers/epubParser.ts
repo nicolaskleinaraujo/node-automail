@@ -7,7 +7,6 @@ const epubParser = async() => {
     try {
         const txtFilePath = path.resolve("../teste.txt")
         const tocTemplatePath = path.resolve("./src/templates/toc.xhtml")
-        console.log(tocTemplatePath)
 
         const rawText = fs.readFileSync(txtFilePath)
         const decodedText = iconv.decode(rawText, "utf-8")

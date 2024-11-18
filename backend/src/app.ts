@@ -33,7 +33,7 @@ const sendNewsLetter = async() => {
     console.log(error)
 }
 
-getNewsletter()
-//formatFile()
+//getNewsletter()
+formatFile()
 //epubParser()
 //sendNewsLetter()
