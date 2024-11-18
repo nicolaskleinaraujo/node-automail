@@ -3,18 +3,18 @@ import Imap, { Config } from "imap"
 import { simpleParser } from "mailparser"
 import fs from "node:fs"
 
-const getNewsletter = async() => {
-    const imapConfig: Config = {
-        user: process.env.IMAP_EMAIL as string,
-        password: process.env.IMAP_PASSWORD as string,
-        host: "imap.gmail.com",
-        port: 993,
-        tls: true,
-        tlsOptions: { rejectUnauthorized: false },
-    }
-    
-    const imap = new Imap(imapConfig)
+const imapConfig: Config = {
+    user: process.env.IMAP_EMAIL as string,
+    password: process.env.IMAP_PASSWORD as string,
+    host: "imap.gmail.com",
+    port: 993,
+    tls: true,
+    tlsOptions: { rejectUnauthorized: false },
+}
 
+const imap = new Imap(imapConfig)
+
+const getNewsletter = async() => {
     try {
         imap.once("ready", () => {
             imap.openBox("inbox", false, (err) => {
