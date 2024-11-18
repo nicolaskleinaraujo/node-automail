@@ -24,7 +24,7 @@ cron.schedule("0 15 * * 1-5", async() => {
         await epubParser()
         await sendNewsLetter()
     } catch (error) {
-        console.log(error)
+        console.log("stoped")
     }
 })
 

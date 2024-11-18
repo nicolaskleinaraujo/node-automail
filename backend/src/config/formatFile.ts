@@ -19,8 +19,6 @@ const formatFile = (): void => {
 
         const encodedFile = iconv.encode(file, "utf-8")
         fs.writeFileSync(filePath, encodedFile)
-
-        console.log("File formated")
     } catch (error) {
         console.log(error)
     }
