@@ -22,12 +22,11 @@ const epubParser = async() => {
                 }
             ],
             lang: "pt",
-            verbose: false,
             customHtmlTocTemplatePath: tocTemplatePath,
         }
 
-        new Epub(options, "../teste.epub").promise.then(() => {
-            console.log("Parsed")
+        await new Epub(options, "../teste.epub").promise.then(() => {
+            console.log("Parsed to Epub")
         })
     } catch (error) {
         console.log(error)

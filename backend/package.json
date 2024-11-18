@@ -16,6 +16,7 @@
     "@types/express": "^5.0.0",
     "@types/imap": "^0.8.42",
     "@types/mailparser": "^3.4.5",
+    "@types/node-cron": "^3.0.11",
     "dotenv": "^16.3.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
@@ -27,6 +28,7 @@
     "iconv-lite": "^0.6.3",
     "imap": "^0.8.19",
     "mailparser": "^3.7.1",
+    "node-cron": "^3.0.3",
     "resend": "^4.0.1-alpha.0"
   }
 }

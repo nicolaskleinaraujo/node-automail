@@ -2,7 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import iconv from "iconv-lite"
 
-const formatFile = async() => {
+const formatFile = (): void => {
     try {
         const filePath = path.resolve("../teste.txt")
         const rawFile = fs.readFileSync(filePath)
@@ -20,7 +20,7 @@ const formatFile = async() => {
         const encodedFile = iconv.encode(file, "utf-8")
         fs.writeFileSync(filePath, encodedFile)
 
-        console.log("formated")
+        console.log("File formated")
     } catch (error) {
         console.log(error)
     }

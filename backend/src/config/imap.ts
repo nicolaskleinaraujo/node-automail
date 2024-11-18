@@ -14,60 +14,63 @@ const imapConfig: Config = {
 
 const imap = new Imap(imapConfig)
 
-const getNewsletter = async() => {
+const getNewsletter = async(): Promise<void> => {
     try {
-        imap.once("ready", () => {
-            imap.openBox("inbox", false, (err) => {
-                if (err) {
-                    console.log(err)
-                    return
-                }
-
-                const filter = [["FROM", "newsletter@filipedeschamps.com.br"]]
-
-                imap.search(filter, (err, results) => {
+        await new Promise<void>((resolve, _reject) => {
+            imap.once("ready", () => {
+                imap.openBox("inbox", false, (err) => {
                     if (err) {
                         console.log(err)
                         return
                     }
-
-                    if (!results || results.length === 0) {
-                        console.log("Nenhum email encontrado")
-                        return
-                    }
-
-                    const fetch = imap.fetch(results, { bodies: ["TEXT"], struct: true })
-
-                    fetch.on("message", (msg) => {
-                        msg.on("body", (stream) => {
-                            let emailData = ""
-
-                            stream.on("data", (chunk) => {
-                                emailData += chunk.toString()
-                            })
-
-                            stream.once("end", () => {
-                                simpleParser(emailData, (err, parsed) => {
-                                    if (err) {
-                                        console.log(err)
-                                        return
-                                    }
-
-                                    fs.writeFileSync("../teste.txt", parsed.text as string)
+    
+                    const filter = [["FROM", "newsletter@filipedeschamps.com.br"]]
+    
+                    imap.search(filter, (err, results) => {
+                        if (err) {
+                            console.log(err)
+                            return
+                        }
+    
+                        if (!results || results.length === 0) {
+                            console.log("Nenhum email encontrado")
+                            return
+                        }
+    
+                        const fetch = imap.fetch(results, { bodies: ["TEXT"], struct: true })
+    
+                        fetch.on("message", (msg) => {
+                            msg.on("body", (stream) => {
+                                let emailData = ""
+    
+                                stream.on("data", (chunk) => {
+                                    emailData += chunk.toString()
+                                })
+    
+                                stream.once("end", () => {
+                                    simpleParser(emailData, (err, parsed) => {
+                                        if (err) {
+                                            console.log(err)
+                                            return
+                                        }
+    
+                                        fs.writeFileSync("../teste.txt", parsed.text as string)
+                                    })
                                 })
                             })
                         })
-                    })
-
-                    fetch.once("end", () => {
-                        console.log("Finished")
-                        imap.end()
+    
+                        fetch.once("end", () => {
+                            console.log("Email downloaded")
+                            imap.end()
+                            resolve()
+                        })
                     })
                 })
             })
+    
+            imap.connect()
         })
-
-        imap.connect()
     } catch (error) {
         console.log(error)
     }
