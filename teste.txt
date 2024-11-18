@@ -1,102 +1,191 @@
+Curiosidade para o dia 18 de novembro: em 1963, era lançado
+nos EUA o telefone com botão de pressão, em contraste à
+tecnologia tradicional de discagem por pulso (discagem rotativa),
+tornando-se posteriormente o padrão mundial para sinalização de
+telecomunicações. E após as notícias de hoje: construa um
+portfólio de destaque para chamar a atenção de recrutadores em
+tecnologia e se você está tentando se tornar um programador
+perfeito, eu tenho algo para te mostrar (pare urgentemente de
+cometer esses erros).
+
+Ferramentas de IA enfrentam dificuldades com bases de código
+complexas e legadas: para Evan Doyle, CTO da Gauge Technologies,
+a tecnologia pode gerar saídas imprecisas em ambientes com “alta
+dívida técnica”. Isso também dificulta a formulação de prompts
+coerentes pelos programadores. Ele recomenda que, em vez de
+forçar o uso dos modelos em problemas complexos, especialistas
+deveriam assumir o trabalho de refatorar o código, ou criar novos
+módulos que a IA possa lidar mais facilmente. As informações são
+do blog da Gauge.
+
+Play Protect detectará aplicativos maliciosos em tempo real no
+Android: o recurso foi projetado para monitorar softwares com
+malwares difíceis de identificar, buscando por sinais de
+comportamento suspeito mesmo após a instalação, e alertando o
+usuário para tomar as devidas providências. A funcionalidade já
+está disponível para dispositivos Pixel 6 e deverá ser expandida
+para aparelhos de outros fabricantes “nos próximos meses”. As
+informações são do site The Verge.
+
+Programa de preservação da GOG, plataforma de jogos, busca manter
+títulos clássicos jogáveis “para sempre”: a ideia é garantir a
+compatibilidade de games antigos com sistemas atuais e futuros, e
+oferecer a melhor e mais completa versão disponível, com manuais,
+conteúdos bônus, expansões e recursos ausentes em outras edições,
+além de suporte técnico para resolução de problemas.
+Inicialmente, o projeto contará com um catálogo de 100 títulos,
+incluindo Diablo, System Shock 2 e Resident Evil 1-3, com mais
+lançamentos planejados para os próximos meses. As informações são
+do site The Verge.
+
+Bluesky afirma que não utilizará postagens de usuários para
+treinar IA: a empresa esclarece que a tecnologia é limitada à
+moderação de conteúdo e aos algoritmos que organizam o feed de
+descoberta. Contudo, a plataforma reconhece que seu arquivo
+“robots.txt” não impede que companhias como OpenAI e Google
+acessem os dados das pessoas, embora esteja explorando maneiras
+de contornar isso. O anúncio foi feito no mesmo dia em que os
+novos termos de serviço do X entraram em vigor, permitindo que
+terceiros utilizem postagens de usuários para treinar IA. As
+informações são do site Engadget.
+
+Spotify pagará criadores de conteúdo por vídeos populares: a
+remuneração acontecerá com base no engajamento dos assinantes da
+plataforma. Os produtores terão acesso aos detalhes pelo hub
+“Spotify for Creators”, que também ajudará a determinar a
+elegibilidade para receber pagamentos. No entanto, ainda não há
+detalhes sobre valores. As mudanças entrarão em vigor em 2 de
+janeiro de 2025, inicialmente nos EUA, Reino Unido, Austrália e
+Canadá. As informações são do site The Verge.
+
+ChatGPT para macOS recebe integração com aplicativos de
+terceiros: o modelo agora pode acessar programas como VS Code e
+Terminal, inclusive de forma simultânea. Em uma demonstração, a
+IA foi capaz de entender o código de um projeto no Xcode e
+fornecer sugestões sem que o usuário precisasse copiar e colar o
+conteúdo no aplicativo. O recurso está disponível apenas para Mac
+e assinantes do ChatGPT. A OpenAI planeja disponibilizá-lo para
+todos os usuários futuramente, além de expandir a integração com
+mais ferramentas. As informações são do site 9to5Mac.
+
+Aplicativo do Google Gemini é lançado para iPhone: o app oferece
+uma interface simples, com uma janela de chat e uma lista das
+conversas anteriores. Também é possível utilizar o modo Live, que
+oferece uma experiência mais interativa e conversacional,
+semelhante ao modo de voz do ChatGPT. Contudo, o modelo possui
+acesso limitado às configurações do dispositivo e só pode
+interagir com outros aplicativos do Google. As informações são do
+site The Verge.
+
+Construa um portfólio de destaque e que chame a atenção dos
+recrutadores em tecnologia com o DIO PRO Vitalício: acesso para
+sempre a + de 1.750 cursos, bootcamps, projetos e formações nas
+carreiras full-stack, back-end, front-end, mobile, games, data,
+inteligência artificial & cloud e próximos lançamentos. De 12x de
+R$ 99,90 por apenas 12x de R$ 39,90: Link Patrocinado (
+https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/p8heh9hzq2knv3sq/aHR0cHM6Ly9jLmRpby5tZS9Cd1AzR2E=
+)
+
+Em vez de tentar ser um programador perfeito, faça isso…: se você
+quer se tornar um Programador Sênior, pare URGENTEMENTE de
+cometer esses erros. Confia em mim: Link para Reels do Instagram
+(
+https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/x0hph6hwqp85gpu5/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9yZWVsL0RDZ2ZUekp4ZUFVLw==
+)
+
+Cancelar inscrição (
+https://unsubscribe.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl
+) | Indicar Newsletter (
+https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/6qheh8h795vmqwco/aHR0cHM6Ly9maWxpcGVkZXNjaGFtcHMuY29tLmJyL25ld3NsZXR0ZXI=
+)
+Rua Antônio da Veiga, 495, Blumenau, SC, 89012-500
+--2d00eb995fd518366b0ff12306b109641c59bb85b9a66bf17f08bbf3ba96
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
-<style type="text/css" style="display:none;"> P {margin-top:0;margin-bottom:0;} </style>
+	<title>Filipe Deschamps Newsletter</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>.email-link:visited{color:#0070c9;text-decoration:underline;font-weight:bold}
+a:visited{color:#0070c9;text-decoration:underline;font-weight:bold}</style>
 </head>
-<body dir="ltr">
-<div style="font-family: Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
-<br>
-</div>
-<div id="appendonsend"></div>
-<hr style="display:inline-block;width:98%" tabindex="-1">
-<div id="divRplyFwdMsg" dir="ltr"><font face="Calibri, sans-serif" style="font-size:11pt" color="#000000"><b>De:</b> Filipe Deschamps&nbsp;Newsletter &lt;newsletter@filipedeschamps.com.br&gt;<br>
-<b>Enviado:</b> quinta-feira, 14 de novembro de 2024 14:26<br>
+<body style="padding: 0; margin: 0; background-color: #ffffff;">
+<div style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color: #333333; background-color: #ffffff; margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;">
+<table align="center" cellpadding="0" cellspacing="0" style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color: #333333; max-width: 685px; padding: 0px 20px; margin: 38px auto 0px auto;">
+	<tbody style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">
+		<tr style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">
+			<td style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding: 0; text-align: left; font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 17px; -webkit-font-smoothing: antialiased; line-height: 26px;">
+			<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased"></strong><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Curiosidade para o dia 18 de novembro:</strong> em 1963, era lançado nos EUA o telefone com botão de pressão, em contraste à tecnologia tradicional de discagem por pulso (discagem rotativa), tornando-se posteriormente o padrão mundial para sinalização de telecomunicações. <strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">E após as notícias de hoje:</strong> construa um portfólio de destaque para chamar a atenção de recrutadores em tecnologia e se você está tentando se tornar um programador perfeito, eu tenho algo para te mostrar (pare urgentemente de cometer esses erros).</p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Ferramentas de IA enfrentam dificuldades com bases de código complexas e legadas:</strong> para Evan Doyle, CTO da Gauge Technologies, a tecnologia pode gerar saídas imprecisas em ambientes com “alta dívida técnica”. Isso também dificulta a formulação de prompts coerentes pelos programadores. Ele recomenda que, em vez de forçar o uso dos modelos em problemas complexos, especialistas deveriam assumir o trabalho de refatorar o código, ou criar novos módulos que a IA possa lidar mais facilmente. As informações são do blog da Gauge.<br style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased"></p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Play Protect detectará aplicativos maliciosos em tempo real no Android:</strong> o recurso foi projetado para monitorar softwares com malwares difíceis de identificar, buscando por sinais de comportamento suspeito mesmo após a instalação, e alertando o usuário para tomar as devidas providências. A funcionalidade já está disponível para dispositivos Pixel 6 e deverá ser expandida para aparelhos de outros fabricantes “nos próximos meses”. As informações são do site The Verge.<br style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased"></p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Programa de preservação da GOG, plataforma de jogos, busca manter títulos clássicos jogáveis “para sempre”:</strong> a ideia é garantir a compatibilidade de games antigos com sistemas atuais e futuros, e oferecer a melhor e mais completa versão disponível, com manuais, conteúdos bônus, expansões e recursos ausentes em outras edições, além de suporte técnico para resolução de problemas. Inicialmente, o projeto contará com um catálogo de 100 títulos, incluindo Diablo, System Shock 2 e Resident Evil 1-3, com mais lançamentos planejados para os próximos meses. As informações são do site The Verge.<br style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased"></p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Bluesky afirma que não utilizará postagens de usuários para treinar IA:</strong> a empresa esclarece que a tecnologia é limitada à moderação de conteúdo e aos algoritmos que organizam o feed de descoberta. Contudo, a plataforma reconhece que seu arquivo “robots.txt” não impede que companhias como OpenAI e Google acessem os dados das pessoas, embora esteja explorando maneiras de contornar isso. O anúncio foi feito no mesmo dia em que os novos termos de serviço do X entraram em vigor, permitindo que terceiros utilizem postagens de usuários para treinar IA. As informações são do site Engadget.<br style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased"></p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Spotify pagará criadores de conteúdo por vídeos populares:</strong> a remuneração acontecerá com base no engajamento dos assinantes da plataforma. Os produtores terão acesso aos detalhes pelo hub “Spotify for Creators”, que também ajudará a determinar a elegibilidade para receber pagamentos. No entanto, ainda não há detalhes sobre valores. As mudanças entrarão em vigor em 2 de janeiro de 2025, inicialmente nos EUA, Reino Unido, Austrália e Canadá. As informações são do site The Verge.
+      </p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">ChatGPT para macOS recebe integração com aplicativos de terceiros:</strong> o modelo agora pode acessar programas como VS Code e Terminal, inclusive de forma simultânea. Em uma demonstração, a IA foi capaz de entender o código de um projeto no Xcode e fornecer sugestões sem que o usuário precisasse copiar e colar o conteúdo no aplicativo. O recurso está disponível apenas para Mac e assinantes do ChatGPT. A OpenAI planeja disponibilizá-lo para todos os usuários futuramente, além de expandir a integração com mais ferramentas. As informações são do site 9to5Mac.
+      </p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Aplicativo do Google Gemini é lançado para iPhone:</strong> o app oferece uma interface simples, com uma janela de chat e uma lista das conversas anteriores. Também é possível utilizar o modo Live, que oferece uma experiência mais interativa e conversacional, semelhante ao modo de voz do ChatGPT. Contudo, o modelo possui acesso limitado às configurações do dispositivo e só pode interagir com outros aplicativos do Google. As informações são do site The Verge.
+      </p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Construa um portfólio de destaque e que chame a atenção dos recrutadores em tecnologia com o DIO PRO Vitalício:</strong> acesso para sempre a + de 1.750 cursos, bootcamps, projetos e formações nas carreiras full-stack, back-end, front-end, mobile, games, data, inteligência artificial &amp; cloud e próximos lançamentos. <strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">De 12x de R$ 99,90 por apenas 12x de R$ 39,90:</strong> <a href="https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/p8heh9hzq2knv3sq/aHR0cHM6Ly9jLmRpby5tZS9Cd1AzR2E=" style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color:#0070c9;text-decoration:underline;font-weight:bold" url-id="1688751337"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Link Patrocinado</strong></a>
+      </p>
+<p style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #eee"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Em vez de tentar ser um programador perfeito, faça isso…:</strong> se você quer se tornar um Programador Sênior, pare URGENTEMENTE de cometer esses erros. <strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Confia em mim:</strong> <a href="https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/x0hph6hwqp85gpu5/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9yZWVsL0RDZ2ZUekp4ZUFVLw==" style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color:#0070c9;text-decoration:underline;font-weight:bold" url-id="1688751338"><strong style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased">Link para Reels do Instagram</strong></a>
+      </p>
 
-<b>Assunto:</b> Controveso: Brasil investiga projeto de CEO da OpenAI / Senha mais usada no mundo / IA dispensa frameworks</font>
-<div>&nbsp;</div>
-</div>
-<style>
-<!--
-a:visited
-	{color:#0070c9;
-	text-decoration:underline;
-	font-weight:bold}
--->
-</style>
-<div style="padding:0; margin:0; background-color:#ffffff">
-<div style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; color:#333333; background-color:#ffffff; margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-<table align="center" cellpadding="0" cellspacing="0" style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; color:#333333; max-width:685px; padding:0px 20px; margin:38px auto 0px auto">
-<tbody style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-<tr style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-<td style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding:0; text-align:left; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; font-size:17px; line-height:26px">
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Curiosidade para o dia 14 de novembro:</strong> em 1994, a Mosaic Communications Corporation mudava de nome para Netscape devido
- ao imenso sucesso do seu navegador web, o Netscape Navigator – o plano inicial da startup era na verdade criar uma rede de jogos online para o console Nintendo 64.
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-E após as notícias de hoje:</strong> oferta de final de ano para servidores VPS com a tecnologia KVM e depoimento de aluno no meu curso de programação que sempre ficava desmotivado em outros cursos (mas agora ele entende o motivo do curso ser tão elogiado).<br style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">World, projeto controverso de identificação e de moeda digital de Sam Altman, CEO da OpenAI, é lançado no Brasil:</strong> a
- startup já está usando o Orb – esfera metálica do tamanho de uma bola de basquete –<span class="x_redactor-invisible-space" style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif"> para escanear
- a íris de pessoas e realizar a verificação de prova de humanidade em dez pontos da cidade de São Paulo. Como incentivo, os participantes recebem 25 tokens Worldcoin, que valem cerca de 300 reais na cotação de hoje. A Autoridade Nacional de Proteção de Dados
- já abriu um processo de fiscalização sobre o funcionamento do projeto no país. As informações são do site Convergência Digital.</span><br style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Senha “123456” é a mais usada no mundo pelo segundo ano consecutivo:</strong> os dados são da lista anual de palavras-chave mais
- populares globalmente, da NordPass. A credencial ocupou o topo em cinco das seis edições da pesquisa, sendo desbancada apenas pela “password” em 2022. A empresa afirma que utilizou um banco de dados de 2,5 TB proveniente de fontes publicamente disponíveis,
- incluindo algumas obtidas na dark web. A companhia destaca que muitas dessas senhas podem ser descobertas por hackers em milissegundos. Uma lista com as 10 credenciais mais utilizadas pode ser conferida no TabNews.
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Líder da equipe de Relações com Desenvolvedores do Chrome questiona necessidade de frameworks no futuro:</strong> Paul Kinlan
- comenta que cria aplicativos utilizando modelos de linguagem. Segundo ele, a IA gera apenas Python e JavaScript puros, frequentemente duplicando a mesma lógica em diferentes telas, e com exceção do back-end com Flask, não utiliza nenhum outro framework. Kinlan
- acredita que, no futuro, usuários não precisarão manipular o código diretamente, uma vez que os modelos podem lidar com tarefas de desenvolvimento de forma simplificada. As informações são do blog do Paul Kinlan.<br style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Meta enfrenta processo da Comissão Federal de Comércio dos EUA que pode levar à separação do Instagram e WhatsApp:</strong> a
- queixa alega que a empresa adquiriu as plataformas para eliminar a concorrência de mercado. Caso a ação seja bem-sucedida, a companhia pode ser obrigada a desmembrar as redes sociais. Em sua defesa, a Meta afirma estar confiante de que o julgamento demonstrará
- que as aquisições foram “benéficas” para os consumidores, e destaca que há diversas evidências de que seus serviços competem com outras plataformas, como YouTube, TikTok, X e iMessage, da Apple. As informações são do site The Verge.<br style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Material oferece até 72% mais resfriamento comparado à pasta térmica convencional:</strong> com uma combinação de metal líquido
- Galinstan e nitreto de alumínio cerâmico, a substância conseguiu dissipar até 2.760 watts de calor em uma área de apenas 16 centímetros quadrados. O avanço é especialmente relevante para data centers — que consomem cerca de 8 terawatts-hora anualmente apenas
- com resfriamento — podendo reduzir o gasto total de energia das estruturas em pelo menos 5%. As informações são do site TechSpot.
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Membro da Guarda Aérea Nacional dos EUA é condenado a 15 anos de prisão por vazar documentos confidenciais no Discord:</strong>
- o indivíduo atuava como operador de defesa cibernética. Investigações apontam que ele acessou materiais além de seu nível de segurança. O acusado admite que buscava informações sigilosas na base, anotava os dados e imprimia os arquivos usando uma “impressora
- isolada e raramente utilizada”. A prisão foi realizada após o Discord fornecer seu endereço às autoridades. As informações são do site The Register.
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">OpenAI pode lançar agente de IA com capacidade para controlar computador do usuário:</strong> segundo fontes internas, o “Operator”
- é projetado para realizar ações como escrever código e fazer reservas de viagem. Em uma reunião com a equipe, a liderança teria revelado planos de disponibilizar o recurso em janeiro, inicialmente como uma prévia de pesquisa, acessível por meio da API voltada
- para desenvolvedores. As informações são do site Yahoo Finance. </p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">A Black Friday da Hostinger veio para potencializar seus projetos com seus novos servidores VPS, que contam com a tecnologia
- KVM:</strong> além de possuir datacenters no Brasil, Ásia, Europa e América do Norte, a velocidade de rede de 300 Mb/s garante velocidade de carregamento mais rápida, ideal para jogos, streaming e muito mais.
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-Aproveite o desconto de 64% no plano &quot;Servidor KVM 2 - 24 meses&quot; e garanta sua VPS por apenas R$32,99/mês + 10% extra com o cupom DESCHAMPS:</strong>
-<a href="https://click.convertkit-mail.com/n4upnrmodeavh8dg6zza0u6340gggtl/l2hehmh38dgv5ec6/aHR0cHM6Ly93d3cuaG9zdGcueHl6L1NIR1Fz" style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; color:#0070c9; text-decoration:underline; font-weight:bold">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Link Patrocinado</strong></a>
-</p>
-<p style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; padding-bottom:20px; margin-bottom:20px; border-bottom:1px solid #eee">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">“Pela primeira vez, não quero que o curso termine, quero continuar aprendendo sem parar”:</strong> esse é parte do depoimento
- do aluno “Felitowski” sobre sua experiência no <a href="https://click.convertkit-mail.com/n4upnrmodeavh8dg6zza0u6340gggtl/m2h7h5h8dlr0k5sm/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX0ZlbGl0b3dza2k=" style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; color:#0070c9; text-decoration:underline; font-weight:bold">
-curso.dev</a>. “Como iniciante, já fiz diversos cursos e sempre senti que a motivação diminuía no meio do caminho, mal podendo esperar para que acabasse logo. No entanto, o curso do Filipe está sendo uma experiência totalmente diferente.
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">
-Antes de comprar, vi alguns reviews no YouTube e, de início, pensei que fossem patrocinados, já que não encontrei críticas negativas. Agora, entendo por que: o curso realmente não tem pontos fracos”:</strong>
-<a href="https://click.convertkit-mail.com/n4upnrmodeavh8dg6zza0u6340gggtl/m2h7h5h8dlr0k5sm/aHR0cHM6Ly9jdXJzby5kZXYvP3V0bV90ZXJtPWVtYWlsX29yZ2FuaWNfbmV3c2xldHRlcl9kZXBvaW1lbnRvX0ZlbGl0b3dza2k=" style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; color:#0070c9; text-decoration:underline; font-weight:bold">
-<strong style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif">Link do Curso</strong></a>
-</p>
- <div style="margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif; font-size:11px; color:#777777">
-Rua Antônio da Veiga, 495, Blumenau, SC, 89012-500</div>
-</td>
-</tr>
-</tbody>
+			<a style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color:#0070c9;text-decoration:underline;font-weight:bold;padding-top: 20px; padding-bottom: 20px;" href="https://unsubscribe.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl">Cancelar inscrição</a> | <a style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;color:#0070c9;text-decoration:underline;font-weight:bold;padding-top: 20px; padding-bottom: 20px;" href="https://click.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl/6qheh8h795vmqwco/aHR0cHM6Ly9maWxpcGVkZXNjaGFtcHMuY29tLmJyL25ld3NsZXR0ZXI=" url-id="1688751339">Indicar Newsletter</a>
+			<div style="margin:0;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+          Helvetica Neue, Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;font-size: 11px; color: #777777;">Rua Antônio da Veiga, 495, Blumenau, SC, 89012-500</div>
+			</td>
+		</tr>
+	</tbody>
 </table>
 </div>
-<img alt="" style="border:0" src="https://open.convertkit-mail.com/n4upnrmodeavh8dg6zza0u6340gggtl">
-</div>
 </body>
-</html>
+<img src="https://open.convertkit-mail.com/e5uo7gd6mkh7hpxnwnou8h895e222bl" alt="" style="border:0">
+</html><!-- -->
 
---_000_RO2PR80MB6484878C7BB6517DC4DE688BC8262RO2PR80MB6484lamp_--
+--2d00eb995fd518366b0ff12306b109641c59bb85b9a66bf17f08bbf3ba96--
