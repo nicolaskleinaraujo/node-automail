@@ -5,11 +5,11 @@ import Epub, { Options } from "epub-gen"
 
 const epubParser = async() => {
     try {
-        const txtFilePath = path.resolve("./src/newsletters/newsletter.txt")
-        const tocTemplatePath = path.resolve("./src/templates/toc.xhtml")
+        const txtFilePath: string = path.resolve("./src/newsletters/newsletter.txt")
+        const tocTemplatePath: string = path.resolve("./src/templates/toc.xhtml")
 
-        const rawText = fs.readFileSync(txtFilePath)
-        const decodedText = iconv.decode(rawText, "utf-8")
+        const rawText: Buffer = fs.readFileSync(txtFilePath)
+        const decodedText: string = iconv.decode(rawText, "utf-8")
     
         const options: Options = {
             title: "Newsletter",

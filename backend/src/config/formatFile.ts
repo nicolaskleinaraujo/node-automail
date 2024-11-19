@@ -4,20 +4,20 @@ import iconv from "iconv-lite"
 
 const formatFile = (): void => {
     try {
-        const filePath = path.resolve("./src/newsletters/newsletter.txt")
-        const rawFile = fs.readFileSync(filePath)
-        let file = iconv.decode(rawFile, "utf-8")
+        const filePath: string = path.resolve("./src/newsletters/newsletter.txt")
+        const rawFile: Buffer = fs.readFileSync(filePath)
+        let file: string = iconv.decode(rawFile, "utf-8")
 
-        const nonHTML = /^[\s\S]*?(?=<html>)/
+        const nonHTML: RegExp = /^[\s\S]*?(?=<html>)/
         file = file.replace(nonHTML, "")
 
-        const header = /<b>Para:<\/b>.*?<br>/i
+        const header: RegExp = /<b>Para:<\/b>.*?<br>/i
         file = file.replace(header, "")
 
-        const footer = /<a[^>]*>\s*(Cancelar\s*inscrição|Indicar\s*Newsletter)\s*<\/a>\s*\|?/g
+        const footer: RegExp = /<a[^>]*>\s*(Cancelar\s*inscrição|Indicar\s*Newsletter)\s*<\/a>\s*\|?/g
         file = file.replace(footer, "")
 
-        const encodedFile = iconv.encode(file, "utf-8")
+        const encodedFile: Buffer = iconv.encode(file, "utf-8")
         fs.writeFileSync(filePath, encodedFile)
     } catch (error) {
         console.log(error)

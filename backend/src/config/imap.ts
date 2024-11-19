@@ -104,14 +104,14 @@ const getNewsletter = async(): Promise<void> => {
     await openInbox()
 
     const filter = [["FROM", "newsletter@filipedeschamps.com.br"]]
-    const result = await searchEmail(filter)
+    const seqno = await searchEmail(filter)
 
-    const emailData = await fetchEmail(result)
+    const emailData = await fetchEmail(seqno)
 
     const parsed = await simpleParser(emailData)
     fs.writeFileSync("./src/newsletters/newsletter.txt", parsed.text as string)
 
-    await addDeleteFlag(result)
+    await addDeleteFlag(seqno)
     await expungeEmail()
 
     imap.end()
