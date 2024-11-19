@@ -14,61 +14,107 @@ const imapConfig: Config = {
 
 const imap = new Imap(imapConfig)
 
-const getNewsletter = async(): Promise<void> => {
-    await new Promise<void>((resolve, reject) => {
-        imap.once("ready", () => {
-            imap.openBox("inbox", false, (err) => {
-                if (err) {
-                    reject()
-                    return
-                }
+const connectToImap = (): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        imap.once("ready", resolve)
+        imap.once("error", reject)
+        imap.connect()
+    })
+}
 
-                const filter = [["FROM", "newsletter@filipedeschamps.com.br"]]
+const openInbox = (): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        imap.openBox("inbox", false, (err) => {
+            if (err) {
+                reject()
+                return
+            }
 
-                imap.search(filter, (err, results) => {
-                    if (err) {
-                        reject()
-                        return
-                    }
+            resolve()
+        })
+    })
+}
 
-                    if (!results || results.length === 0) {
-                        reject()
-                        return
-                    }
+const searchEmail = (filter: string[][]): Promise<number> => {
+    return new Promise((resolve, reject) => {
+        imap.search(filter, (err, results) => {
+            if (err) {
+                reject()
+                return
+            }
 
-                    const fetch = imap.fetch(results, { bodies: ["TEXT"], struct: true })
+            if (!results || results.length === 0) {
+                reject()
+                return
+            }
 
-                    fetch.on("message", (msg) => {
-                        msg.on("body", (stream) => {
-                            let emailData = ""
+            resolve(Math.max(...results))
+        })
+    })
+}
 
-                            stream.on("data", (chunk) => {
-                                emailData += chunk.toString()
-                            })
+const fetchEmail = (seqno: number): Promise<string> => {
+    return new Promise((resolve, reject) => {
+        const fetch = imap.fetch(seqno, { bodies: ["TEXT"], struct: true })
 
-                            stream.once("end", () => {
-                                simpleParser(emailData, (err, parsed) => {
-                                    if (err) {
-                                        reject()
-                                        return
-                                    }
+        let emailData = ""
 
-                                    fs.writeFileSync("../teste.txt", parsed.text as string)
-                                    resolve()
-                                })
-                            })
-                        })
-                    })
-
-                    fetch.once("end", () => {
-                        imap.end()
-                    })
+        fetch.on("message", (msg) => {
+            msg.on("body", (stream) => {
+                stream.on("data", (chunk) => {
+                    emailData += chunk.toString()
                 })
+
+                stream.once("end", () => resolve(emailData))
             })
         })
 
-        imap.connect()
+        fetch.once("error", (err) => reject())
     })
+}
+
+const addDeleteFlag = (seqno: number): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        imap.addFlags(seqno, "\\Deleted", (err) => {
+            if (err) {
+                reject()
+                return
+            }
+
+            resolve()
+        })
+    })
+}
+
+const expungeEmail = (): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        imap.expunge((err) => {
+            if (err) {
+                reject()
+                return
+            }
+
+            resolve()
+        })
+    })
+}
+
+const getNewsletter = async(): Promise<void> => {
+    await connectToImap()
+    await openInbox()
+
+    const filter = [["FROM", "nkfa2016@hotmail.com"]]
+    const result = await searchEmail(filter)
+
+    const emailData = await fetchEmail(result)
+
+    const parsed = await simpleParser(emailData)
+    fs.writeFileSync("../teste.txt", parsed.text as string)
+
+    await addDeleteFlag(result)
+    await expungeEmail()
+
+    imap.end()
 }
 
 export default getNewsletter
