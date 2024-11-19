@@ -5,7 +5,7 @@ import Epub, { Options } from "epub-gen"
 
 const epubParser = async() => {
     try {
-        const txtFilePath = path.resolve("../teste.txt")
+        const txtFilePath = path.resolve("./src/newsletters/newsletter.txt")
         const tocTemplatePath = path.resolve("./src/templates/toc.xhtml")
 
         const rawText = fs.readFileSync(txtFilePath)
@@ -26,7 +26,7 @@ const epubParser = async() => {
             customHtmlTocTemplatePath: tocTemplatePath,
         }
 
-        await new Epub(options, "../teste.epub").promise
+        await new Epub(options, "./src/newsletters/newsletter.epub").promise
     } catch (error) {
         console.log(error)
     }

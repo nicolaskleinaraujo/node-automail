@@ -8,7 +8,7 @@ const resend: Resend = new Resend(process.env.RESEND_KEY)
 const sendNewsLetter = async() => {
     const date: Date = new Date()
 
-    const filePath: string = path.resolve("../teste.epub")
+    const filePath: string = path.resolve("./src/newsletters/newsletter.epub")
     const attachment: string = fs.readFileSync(filePath).toString("base64")
 
     try {

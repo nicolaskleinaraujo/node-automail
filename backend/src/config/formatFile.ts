@@ -4,7 +4,7 @@ import iconv from "iconv-lite"
 
 const formatFile = (): void => {
     try {
-        const filePath = path.resolve("../teste.txt")
+        const filePath = path.resolve("./src/newsletters/newsletter.txt")
         const rawFile = fs.readFileSync(filePath)
         let file = iconv.decode(rawFile, "utf-8")
 
