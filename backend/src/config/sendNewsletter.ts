@@ -1,5 +1,6 @@
 import "dotenv/config"
 import { Resend } from "resend"
+import prisma from "./prisma"
 import path from "node:path"
 import fs from "node:fs"
 
@@ -12,9 +13,11 @@ const sendNewsLetter = async() => {
     const attachment: string = fs.readFileSync(filePath).toString("base64")
 
     try {
+        const emails = (await prisma.email.findMany()).map(emails => emails.email)
+
         await resend.emails.send({
             from: "contatonkfa@nkportfolio.tech",
-            to: [process.env.EMAIL_TO as string],
+            to: emails,
             subject: "Convert",
             text: "Newsletter do dia",
             attachments: [
