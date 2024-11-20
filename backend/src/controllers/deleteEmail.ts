@@ -10,22 +10,22 @@ const EmailSchema = z.object({
     email: z.string().email().trim().max(150),
 })
 
-const registerEmail = async(req: Request, res: Response): Promise<void> => {
+const deleteEmail = async(req: Request, res: Response): Promise<void> => {
     try {
-        const { email }: Email = EmailSchema.parse(req.body)
+        const { email }: Email = EmailSchema.parse(req. body)
 
         const emailExists = await prisma.email.findUnique({ where: { email } })
-        if (emailExists) {
-            res.status(400).json({ msg: "Email já cadastrado" })
+        if (!emailExists) {
+            res.status(404).json({ msg: "Email não encontrado" })
             return
         }
 
-        await prisma.email.create({ data: { email } })
+        await prisma.email.delete({ where: { email } })
 
-        res.status(201).json({ msg: "Email cadastrado com sucesso" })
+        res.status(200).json({ msg: "Email deletado com sucesso" })
     } catch (error) {
         res.status(500).json({ msg: "Erro interno, tente novamente", error })
     }
 }
 
-export default registerEmail
+export default deleteEmail
