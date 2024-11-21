@@ -1,6 +1,5 @@
 // Components
 import { Card, CardHeader, CardFooter, CardContent, CardTitle } from "@/components/ui/card"
-import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { CopyIcon, MoveLeft, MoveRight } from "lucide-react"
