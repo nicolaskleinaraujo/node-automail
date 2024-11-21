@@ -1,5 +1,8 @@
 // Components
 import Welcome from "@/components/Welcome"
+import AmazonAuth from "./components/AmazonAuth"
+
+// Modules
 import { useState } from "react"
 
 function App() {
@@ -8,6 +11,7 @@ function App() {
   return (
     <div className="flex justify-center items-center h-screen">
       { steps === 0 && <Welcome setSteps={setSteps} /> }
+      { steps === 1 && <AmazonAuth setSteps={setSteps} /> }
     </div>
   )
 }
