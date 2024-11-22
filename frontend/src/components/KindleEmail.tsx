@@ -1,9 +1,9 @@
 // Components
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs'
-import { Card, CardContent, CardFooter } from '@/components/ui/card'
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
+import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { MoveLeft } from "lucide-react"
+import EmailForm from "@/components/EmailForm"
 
 // Modules
 import React, { Dispatch, SetStateAction } from "react"
@@ -13,11 +13,6 @@ interface KindleEmailProps {
 }
 
 const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
-    const handleRegister: () => void = () => {
-        console.log("registered")
-        setSteps(3)
-    }
-
     return (
         <Tabs defaultValue="kindle">
             <TabsList className="grid w-full grid-cols-2">
@@ -32,8 +27,7 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                             No seu dispositivo Kindle entre em "Todas as configurações". Entre na aba "Sua conta". Informe o "E-mail do Send to Kindle" abaixo:
                         </p>
 
-                        <Input placeholder="Seu e-mail do Kindle" />
-                        <Button variant="secondary" onClick={() => handleRegister()} className="mt-2">Registrar</Button>
+                        <EmailForm setSteps={setSteps} />
                     </CardContent>
 
                     <CardFooter className="flex justify-start w-full">
@@ -49,8 +43,7 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                             Em seu aplicativo "Amazon Kindle", entre em "configurações" e informe o "Endereço de e-mail Enviar para o Kindle" no campo abaixo:
                         </p>
 
-                        <Input placeholder="Seu e-mail do Kindle" />
-                        <Button variant="secondary" onClick={() => handleRegister()} className="mt-2">Registrar</Button>
+                        <EmailForm setSteps={setSteps} />
                     </CardContent>
 
                     <CardFooter className="flex justify-start w-full">
