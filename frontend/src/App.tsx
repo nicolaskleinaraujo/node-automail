@@ -24,7 +24,7 @@ function App() {
         theme="dark" 
       />
 
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center h-screen bg-neutral-900">
         { steps === 0 && <Welcome setSteps={setSteps} /> }
         { steps === 1 && <AmazonAuth setSteps={setSteps} /> }
         { steps === 2 && <KindleEmail setSteps={setSteps} /> }
