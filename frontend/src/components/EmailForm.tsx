@@ -2,9 +2,10 @@
 import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { LoaderCircle } from "lucide-react"
 
 // Modules
-import React, { Dispatch, SetStateAction } from "react"
+import React, { Dispatch, SetStateAction, useState } from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { toast } from "react-toastify"
@@ -21,6 +22,8 @@ const formSchema = z.object({
 })
 
 const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
+    const [loading, setLoading] = useState(false)
+
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -30,6 +33,8 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
 
     const handleRegister: (values: z.infer<typeof formSchema>) => Promise<void> = async(values) => {
         try {
+            setLoading(true)
+
             if (handleType === "REGISTER") {
                 const res = await apiFetch.post("/email", { email: values.email })
                 toast.success(res.data.msg)
@@ -41,6 +46,7 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
             }
         } catch (error: any) {
             toast.error(error.response.data.msg)
+            setLoading(false)
         }
     }
 
@@ -60,8 +66,9 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
                     )}
                 />
 
-                { handleType === "REGISTER" && <Button type="submit" variant="secondary" className="mt-2">Registrar</Button> }
-                { handleType === "DELETE" && <Button type="submit" variant="destructive" className="mt-2">Remover</Button> }
+                { handleType === "REGISTER" && !loading && <Button type="submit" variant="secondary" className="mt-2">Registrar</Button> }
+                { handleType === "DELETE" && !loading && <Button type="submit" variant="destructive" className="mt-2">Remover</Button> }
+                { loading && <Button disabled variant="secondary" className="mt-2"><LoaderCircle className="animate-spin" /></Button> }
             </form>
         </Form>
     )
