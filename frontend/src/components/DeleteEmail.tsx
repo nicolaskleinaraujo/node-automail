@@ -17,7 +17,7 @@ const DeleteEmail: React.FC<DeleteEmailProps> = ({ setSteps }) => {
             <CardHeader>
                 <CardTitle>Delete seu e-mail</CardTitle>
                 <CardDescription>
-                    Digite o seu e-mail abaixo para para de receber a Newsletter em sua conta Kindle
+                    Digite o seu e-mail abaixo para parar de receber a Newsletter em sua conta Kindle
                 </CardDescription>
             </CardHeader>
 
