@@ -3,6 +3,7 @@ import Welcome from "@/components/Welcome"
 import AmazonAuth from "@/components/AmazonAuth"
 import KindleEmail from "@/components/KindleEmail"
 import EndScreen from "@/components/EndScreen"
+import DeleteEmail from "@/components/DeleteEmail"
 
 // Modules
 import { useState } from "react"
@@ -16,6 +17,7 @@ function App() {
       { steps === 1 && <AmazonAuth setSteps={setSteps} /> }
       { steps === 2 && <KindleEmail setSteps={setSteps} /> }
       { steps === 3 && <EndScreen /> }
+      { steps === 4 && <DeleteEmail setSteps={setSteps} /> }
     </div>
   )
 }

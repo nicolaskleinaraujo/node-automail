@@ -23,8 +23,9 @@ const Welcome: React.FC<WelcomeProps> = ({ setSteps }) => {
                 </CardDescription>
             </CardHeader>
 
-            <CardContent>
+            <CardContent className="flex flex-row gap-3">
                 <Button variant="outline" onClick={() => setSteps(1)}>Iniciar passo-a-passo</Button>
+                <Button variant="destructive" onClick={() => setSteps(4)}>Remover e-mail</Button>
             </CardContent>
         </Card>
     )

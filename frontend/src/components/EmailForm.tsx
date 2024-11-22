@@ -11,14 +11,15 @@ import apiFetch from "@/config/axios"
 import z from "zod"
 
 interface EmailFormProps {
-    setSteps: Dispatch<SetStateAction<number>>
+    setSteps: Dispatch<SetStateAction<number>>,
+    handleType: string,
 }
 
 const formSchema = z.object({
-    email: z.string().email().trim().max(150),
+    email: z.string().email({ message: "Email invalido" }).trim().max(150),
 })
 
-const EmailForm: React.FC<EmailFormProps> = ({ setSteps }) => {
+const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -28,8 +29,13 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps }) => {
 
     const handleRegister: (values: z.infer<typeof formSchema>) => Promise<void> = async(values) => {
         try {
-            await apiFetch.post("/email", { email: values.email })
-            setSteps(3)
+            if (handleType === "REGISTER") {
+                await apiFetch.post("/email", { email: values.email })
+                setSteps(3)
+            } else if (handleType === "DELETE") {
+                await apiFetch.delete("/email", { data: { email: values.email } })
+                setSteps(0)
+            }
         } catch (error) {
             console.log(error)
         }
@@ -50,7 +56,9 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps }) => {
                         </FormItem>
                     )}
                 />
-                <Button type="submit" variant="secondary" className="mt-2">Registrar</Button>
+
+                { handleType === "REGISTER" && <Button type="submit" variant="secondary" className="mt-2">Registrar</Button> }
+                { handleType === "DELETE" && <Button type="submit" variant="destructive" className="mt-2">Remover</Button> }
             </form>
         </Form>
     )

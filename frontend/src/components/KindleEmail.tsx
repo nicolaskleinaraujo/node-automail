@@ -27,7 +27,7 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                             No seu dispositivo Kindle entre em "Todas as configurações". Entre na aba "Sua conta". Informe o "E-mail do Send to Kindle" abaixo:
                         </p>
 
-                        <EmailForm setSteps={setSteps} />
+                        <EmailForm setSteps={setSteps} handleType="REGISTER" />
                     </CardContent>
 
                     <CardFooter className="flex justify-start w-full">
@@ -43,7 +43,7 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                             Em seu aplicativo "Amazon Kindle", entre em "configurações" e informe o "Endereço de e-mail Enviar para o Kindle" no campo abaixo:
                         </p>
 
-                        <EmailForm setSteps={setSteps} />
+                        <EmailForm setSteps={setSteps} handleType="REGISTER" />
                     </CardContent>
 
                     <CardFooter className="flex justify-start w-full">
