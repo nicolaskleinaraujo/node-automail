@@ -6,6 +6,7 @@ import { CopyIcon, MoveLeft, MoveRight } from "lucide-react"
 
 // Modules
 import React, { Dispatch, SetStateAction } from "react"
+import { toast } from "react-toastify"
 
 interface AmazonAuthProps {
     setSteps: Dispatch<SetStateAction<number>>
@@ -13,7 +14,12 @@ interface AmazonAuthProps {
 
 const AmazonAuth: React.FC<AmazonAuthProps> = ({ setSteps }) => {
     const handleClipboard: () => void = () => {
-        navigator.clipboard.writeText("contatonkfa@nkportfolio.tech")
+        try {
+            navigator.clipboard.writeText("contatonkfa@nkportfolio.tech")
+            toast.success("Copiado")
+        } catch (error) {
+            toast.error("Erro ao copiar")
+        }
     }
 
     return (

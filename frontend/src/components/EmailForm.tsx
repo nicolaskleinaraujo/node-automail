@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import React, { Dispatch, SetStateAction } from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
+import { toast } from "react-toastify"
 import apiFetch from "@/config/axios"
 import z from "zod"
 
@@ -30,14 +31,16 @@ const EmailForm: React.FC<EmailFormProps> = ({ setSteps, handleType }) => {
     const handleRegister: (values: z.infer<typeof formSchema>) => Promise<void> = async(values) => {
         try {
             if (handleType === "REGISTER") {
-                await apiFetch.post("/email", { email: values.email })
+                const res = await apiFetch.post("/email", { email: values.email })
+                toast.success(res.data.msg)
                 setSteps(3)
             } else if (handleType === "DELETE") {
-                await apiFetch.delete("/email", { data: { email: values.email } })
+                const res = await apiFetch.delete("/email", { data: { email: values.email } })
+                toast.success(res.data.msg)
                 setSteps(0)
             }
-        } catch (error) {
-            console.log(error)
+        } catch (error: any) {
+            toast.error(error.response.data.msg)
         }
     }
 
