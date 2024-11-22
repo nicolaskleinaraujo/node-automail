@@ -29,14 +29,14 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                 <Card className="flex flex-col justify-center items-center text-center w-full max-w-72 sm:max-w-md md:max-w-lg lg:max-w-xl">
                     <CardContent>
                         <p className="my-5">
-                            No seu dispositivo Kindle entre em "Todas as configurações". Entre na aba "Sua conta". Informe o "E-mail do "Send to Kindle" abaixo:
+                            No seu dispositivo Kindle entre em "Todas as configurações". Entre na aba "Sua conta". Informe o "E-mail do Send to Kindle" abaixo:
                         </p>
 
                         <Input placeholder="Seu e-mail do Kindle" />
                         <Button variant="secondary" onClick={() => handleRegister()} className="mt-2">Registrar</Button>
                     </CardContent>
 
-                    <CardFooter className="flex justify-center">
+                    <CardFooter className="flex justify-start w-full">
                         <Button variant="outline" onClick={() => setSteps(1)}><MoveLeft /> Voltar</Button>
                     </CardFooter>
                 </Card>
@@ -53,7 +53,7 @@ const KindleEmail: React.FC<KindleEmailProps> = ({ setSteps }) => {
                         <Button variant="secondary" onClick={() => handleRegister()} className="mt-2">Registrar</Button>
                     </CardContent>
 
-                    <CardFooter className="flex justify-center">
+                    <CardFooter className="flex justify-start w-full">
                         <Button variant="outline" onClick={() => setSteps(1)}><MoveLeft /> Voltar</Button>
                     </CardFooter>
                 </Card>

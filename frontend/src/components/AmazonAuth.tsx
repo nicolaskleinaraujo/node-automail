@@ -22,8 +22,8 @@ const AmazonAuth: React.FC<AmazonAuthProps> = ({ setSteps }) => {
                 <CardTitle>Primeiro Passo</CardTitle>
             </CardHeader>
 
-            <CardContent className="px-1">
-                <p className="my-3">Acesse as configurações da Amazon para autorizar o envio de e-mails.</p>
+            <CardContent className="px-2">
+                <p className="my-3">Acesse as <a href="https://www.amazon.com.br/hz/mycd/myx#/home/settings/payment" target="_blank" className="underline">configurações da Amazon</a> para autorizar o envio de e-mails.</p>
                 <p className="my-3">Faça log-in com a sua conta e na aba de "preferencias" desça até a seção "Configurações de documentos pessoais".</p>
                 <p className="my-3">Clique em "Adicionar um novo endereço de e-mail" e adicione o seguinte e-mail:</p>
 
@@ -36,7 +36,7 @@ const AmazonAuth: React.FC<AmazonAuthProps> = ({ setSteps }) => {
                 </div>
             </CardContent>
 
-            <CardFooter className="flex flex-1 justify-center gap-5">
+            <CardFooter className="flex flex-1 justify-center gap-5 mt-2">
                 <Button variant="outline" onClick={() => setSteps(0)}><MoveLeft /> Voltar</Button>
                 <Button variant="outline" onClick={() => setSteps(2)}>Próximo <MoveRight /></Button>
             </CardFooter>
