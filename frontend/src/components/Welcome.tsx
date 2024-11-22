@@ -19,7 +19,7 @@ const Welcome: React.FC<WelcomeProps> = ({ setSteps }) => {
                 </Avatar>
 
                 <CardDescription>
-                    Receba a Newsletter do <a href="https://filipedeschamps.com.br/newsletter" target="_blank" className="underline">Filipe Deschamps</a> em sua conta Kindle
+                    Receba a Newsletter do <a href="https://filipedeschamps.com.br/newsletter" target="_blank" className="underline animate-pulse text-yellow-300">Filipe Deschamps</a> em sua conta Kindle
                 </CardDescription>
             </CardHeader>
 
