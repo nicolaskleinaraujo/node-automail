@@ -1,6 +1,7 @@
 # Automatic Newsletter Sender for Kindle
  ![MIT License](https://img.shields.io/badge/license-MIT-blue)
  <br>
+   <img src="./frontend/public/home-page.png" alt="Print Home Page" width="700">.
    ### Demo app: https://node-automail.nkportfolio.tech
 # About
  This API downloads an e-mail through an IMAP server and converts it into an EPUB file.
