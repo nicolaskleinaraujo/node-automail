@@ -23,7 +23,7 @@ const AmazonAuth: React.FC<AmazonAuthProps> = ({ setSteps }) => {
     }
 
     return (
-        <Card className="flex flex-col justify-center items-center text-center w-full max-w-72 sm:max-w-md md:max-w-lg lg:max-w-xl">
+        <Card className="flex flex-col justify-center items-center text-center w-11/12 max-w-md md:max-w-lg lg:max-w-xl">
             <CardHeader>
                 <CardTitle>Primeiro Passo</CardTitle>
             </CardHeader>
@@ -33,7 +33,7 @@ const AmazonAuth: React.FC<AmazonAuthProps> = ({ setSteps }) => {
                 <p className="my-3">Faça log-in com a sua conta e na aba de "preferencias" desça até a seção "Configurações de documentos pessoais".</p>
                 <p className="my-3">Clique em "Adicionar um novo endereço de e-mail" e adicione o seguinte e-mail:</p>
 
-                <div className="flex items-center space-x-1 mx-auto mt-5 w-11/12">
+                <div className="flex items-center space-x-1 mx-auto mt-5 w-11/12 max-w-sm">
                     <Input className="text-xs" readOnly value="contatonkfa@nkportfolio.tech" />
 
                     <Button onClick={handleClipboard}>

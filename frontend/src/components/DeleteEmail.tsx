@@ -13,7 +13,7 @@ interface DeleteEmailProps {
 
 const DeleteEmail: React.FC<DeleteEmailProps> = ({ setSteps }) => {
     return (
-        <Card className="flex flex-col justify-center items-center text-center w-full max-w-72 sm:max-w-md md:max-w-lg lg:max-w-xl">
+        <Card className="flex flex-col justify-center items-center text-center w-11/12 max-w-md md:max-w-lg lg:max-w-xl">
             <CardHeader>
                 <CardTitle>Delete seu e-mail</CardTitle>
                 <CardDescription>
