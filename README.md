@@ -9,6 +9,9 @@
  The frontend basically shows the step-by-step guide on how to set up your Kindle account.
  The Cron Job is set up to run every day at 12pm.
 
+# Working on
+ - [ ] Logging
+
 # Stacks 
   ### Back-end
   - TypeScript
