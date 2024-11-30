@@ -1,5 +1,6 @@
 import "dotenv/config"
 import { Request, Response } from "express"
+import logger from "../config/logging"
 import z from "zod"
 import getNewsletter from "../config/imap"
 import formatFile from "../config/formatFile"
@@ -32,6 +33,7 @@ const forceNewsletter = async(req: Request, res: Response): Promise<void> => {
 
         res.status(200).json({ msg: "Newsletter enviada" })
     } catch (error) {
+        logger.error(error)
         res.status(500).json({ msg: "Erro interno, tente novamente" })
     }
 }

@@ -1,4 +1,5 @@
 import { Request, Response } from "express"
+import logger from "../config/logging"
 import prisma from "../config/prisma"
 import z from "zod"
 
@@ -24,6 +25,7 @@ const deleteEmail = async(req: Request, res: Response): Promise<void> => {
 
         res.status(200).json({ msg: "Email deletado com sucesso" })
     } catch (error) {
+        logger.error(error)
         res.status(500).json({ msg: "Erro interno, tente novamente", error })
     }
 }
