@@ -12,27 +12,21 @@ const sendNewsLetter = async() => {
     const filePath: string = path.resolve("./src/newsletters/newsletter.epub")
     const attachment: string = fs.readFileSync(filePath).toString("base64")
 
-    try {
-        const emails = (await prisma.email.findMany()).map(emails => emails.email)
+    const emails = (await prisma.email.findMany()).map(emails => emails.email)
 
-        await resend.emails.send({
-            from: "contatonkfa@nkportfolio.tech",
-            to: emails,
-            subject: "Convert",
-            text: "Newsletter do dia",
-            attachments: [
-                {
-                    content: attachment,
-                    contentType: "application/epub+zip",
-                    filename: `Newsletter ${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getFullYear()).slice(2)}.epub`
-                }
-            ]
-        })
-
-        console.log("Newsletter send")
-    } catch (error) {
-        console.log(error)
-    }
+    await resend.emails.send({
+        from: "contatonkfa@nkportfolio.tech",
+        to: emails,
+        subject: "Convert",
+        text: "Newsletter do dia",
+        attachments: [
+            {
+                content: attachment,
+                contentType: "application/epub+zip",
+                filename: `Newsletter ${String(date.getDate()).padStart(2, "0")}/${String(date.getMonth() + 1).padStart(2, "0")}/${String(date.getFullYear()).slice(2)}.epub`
+            }
+        ]
+    })
 }
 
 export default sendNewsLetter

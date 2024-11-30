@@ -5,6 +5,7 @@ const logger = winston.createLogger({
     transports: [
         new winston.transports.File({ filename: "server.log" })
     ],
+    
 })
 
 export default logger
