@@ -11,6 +11,7 @@
 
 # Working on
  - [ ] Logging
+ - [ ] Support for [TabNews](https://www.tabnews.com.br)
 
 # Stacks 
   ### Back-end
