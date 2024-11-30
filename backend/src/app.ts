@@ -3,6 +3,7 @@ import "dotenv/config"
 import express, { Application, Request, Response } from "express"
 import cors from "cors"
 import cron from "node-cron"
+import logger from "./config/logging"
 
 // Cron-Job Files
 import getNewsletter from "./config/imap"
@@ -32,7 +33,7 @@ cron.schedule("0 15 * * 1-5", async() => {
         await epubParser()
         await sendNewsLetter()
     } catch (error) {
-        console.log("stoped")
+        logger.error(error)
     }
 })
 

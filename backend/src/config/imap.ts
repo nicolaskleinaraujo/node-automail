@@ -26,7 +26,7 @@ const openInbox = (): Promise<void> => {
     return new Promise((resolve, reject) => {
         imap.openBox("inbox", false, (err) => {
             if (err) {
-                reject()
+                reject("Inbox oppening error")
                 return
             }
 
@@ -39,12 +39,12 @@ const searchEmail = (filter: string[][]): Promise<number> => {
     return new Promise((resolve, reject) => {
         imap.search(filter, (err, results) => {
             if (err) {
-                reject()
+                reject("Search error")
                 return
             }
 
             if (!results || results.length === 0) {
-                reject()
+                reject("Email not found")
                 return
             }
 
@@ -69,7 +69,7 @@ const fetchEmail = (seqno: number): Promise<string> => {
             })
         })
 
-        fetch.once("error", (err) => reject())
+        fetch.once("error", () => reject("Fetch error"))
     })
 }
 
@@ -77,7 +77,7 @@ const addDeleteFlag = (seqno: number): Promise<void> => {
     return new Promise((resolve, reject) => {
         imap.addFlags(seqno, "\\Deleted", (err) => {
             if (err) {
-                reject()
+                reject("Add flag error")
                 return
             }
 
@@ -90,7 +90,7 @@ const expungeEmail = (): Promise<void> => {
     return new Promise((resolve, reject) => {
         imap.expunge((err) => {
             if (err) {
-                reject()
+                reject("Delete email error")
                 return
             }
 
