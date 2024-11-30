@@ -10,7 +10,7 @@
  The Cron Job is set up to run every day at 12pm.
 
 # Working on
- - [ ] Logging
+ - [x] ~~Logging~~
  - [ ] Support for [TabNews](https://www.tabnews.com.br)
 
 # Stacks 
