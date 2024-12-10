@@ -47,7 +47,7 @@ const Welcome: React.FC<WelcomeProps> = ({ setSteps }) => {
                 </CardContent>
             </Card>
 
-            <Badge className="mt-3">
+            <Badge variant="secondary" className="mt-3">
                 <span className="inline-flex w-2 h-2 mr-2 rounded-full bg-green-500 animate-pulse"></span> {activeUsers} usuários ativos
             </Badge>
         </div>
