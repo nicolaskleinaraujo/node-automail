@@ -15,6 +15,7 @@ import sendNewsLetter from "./config/sendNewsletter"
 import registerEmail from "./controllers/registerEmail"
 import deleteEmail from "./controllers/deleteEmail"
 import forceNewsletter from "./controllers/forceNewsletter"
+import activeUsers from "./controllers/activeUsers"
 
 const app: Application = express()
 const port: number = Number(process.env.PORT) || 3000
@@ -40,6 +41,7 @@ cron.schedule("0 15 * * 1-5", async() => {
 app.post("/email", (req: Request, res: Response) => registerEmail(req, res))
 app.delete("/email", (req: Request, res: Response) => deleteEmail(req, res))
 app.post("/force", (req: Request, res: Response) => forceNewsletter(req, res))
+app.get("/users", (req: Request, res: Response) => activeUsers(req, res))
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
