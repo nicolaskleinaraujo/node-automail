@@ -5,13 +5,29 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
 // Modules
-import React, { Dispatch, SetStateAction } from "react"
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react"
+import apiFetch from "@/config/axios"
 
 interface WelcomeProps {
     setSteps: Dispatch<SetStateAction<number>>
 }
 
 const Welcome: React.FC<WelcomeProps> = ({ setSteps }) => {
+    const [activeUsers, setAcitveUsers] = useState(0)
+
+    const getActiveUser = async() => {
+        try {
+            const res = await apiFetch.get("/users")
+            setAcitveUsers(res.data.users)
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    useEffect(() => {
+        getActiveUser()
+    }, [])
+
     return (
         <div className="flex flex-col justify-center items-center text-center w-11/12 max-w-md md:max-w-lg lg:max-w-xl">
             <Card className="flex flex-col justify-center items-center text-center w-11/12 max-w-md md:max-w-lg lg:max-w-xl">
@@ -32,7 +48,7 @@ const Welcome: React.FC<WelcomeProps> = ({ setSteps }) => {
             </Card>
 
             <Badge className="mt-3">
-                <span className="inline-flex w-2 h-2 mr-2 rounded-full bg-green-500 animate-pulse"></span> XX usuários ativos
+                <span className="inline-flex w-2 h-2 mr-2 rounded-full bg-green-500 animate-pulse"></span> {activeUsers} usuários ativos
             </Badge>
         </div>
     )
